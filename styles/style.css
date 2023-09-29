@@ -1,0 +1,107 @@
+/*Navbar*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+    z-index: 3;
+}
+.navbar-nav{
+    padding-left: 3%;
+}
+.txt-title{
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+/*home*/
+#Home{
+    padding: 13% 15% 5%;
+    background-image: url('/images/bg-showing.jpg');
+    font-family: 'Varela Round', sans-serif;
+    margin: auto;
+    height: 100;
+    color: white;
+    text-align: center;
+}
+.home-bg{
+    margin: auto;
+    position: absolute;
+    left: 0%;
+}
+.home-header, .home-body{
+    line-height: 1.5;
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+.home-body{
+    padding: 7% 14%;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+/*Now Showing*/
+#showing{
+    padding: 8% 15% 5%;
+    z-index: 1;
+    position: relative;
+    font-family: 'Almorai', sans-serif;
+    background-color: black;
+    text-align: center;
+}
+.btn-ticket{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-image: linear-gradient(to right, hwb(4 14% 21%) 0%, #fe8c00  100%, #f83600  51%);
+    margin: 15px;
+}
+.btn-ticket:hover{
+    background-position: right left; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.txt-showing{
+    color:	#D4AF37;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.movie-poster{
+    size: 25%;
+    margin: auto;
+    width: 35%;
+}
+.carousel-item{
+    padding: 3% 3%;
+}
+/*Schedule Movies*/
+/*Foodbar*/
+#foodbar{
+    background-image: url('/images/foodbar.jpg');
+    text-align: center;
+    height: auto;
+}
+.foodbar-item{
+    z-index: 1;
+    position: relative;
+    size: 30%;
+    margin: auto;
+    
+}
+.car-foodbar{
+    padding: 15% 0 15% 0;
+    z-index: 1;
+    position: relative;
+}
+/*Contact*/
+#footer{
+    padding: 7% 14%;
+    text-align: center;
+}
+.foot-icon{
+    padding: 20px 10px;
+}

@@ -1,0 +1,82 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+hr {
+    height: 8px;
+    background-color: red;
+    background-image: linear-gradient(90deg, red, transparent);
+    
+    border: 0;
+    height: 1px;
+}
+/*Navbar*/
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+    z-index: 3;
+}
+.navbar-nav{
+    padding-left: 3%;
+}
+.txt-title{
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+/*Movie Selection*/
+#movie-selection{
+    padding: 4% 5%;
+    z-index: 1;
+    position: relative;
+    font-family: 'Almorai', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.bg-img{
+    text-align: center;
+    margin: auto;
+    font-family: 'Chivo' , sans-serif;
+    font-weight: 400;
+    border-radius: 20px;
+    background: linear-gradient(to bottom , black 20%,#15293b ,#123755 , rgb(14, 73, 128) );
+}
+.mv-details{
+    size: 60%;
+    font-size: 1rem;
+    margin: 20px;
+    width: 20%;
+    line-height: 1.5rem;
+}
+.movie-poster{
+    size: 15%;
+    width: 35%;
+}
+.txt-showing{
+    background: linear-gradient(to right, #f32170,#ff0831, #e41a1a, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.carousel-item{
+    padding: 7% 13%;
+    width: auto;
+}
+/*Schedule Movies*/
+
+/*Contact*/
+#footer{
+    
+    padding: 7% 14%;
+    text-align: center;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
