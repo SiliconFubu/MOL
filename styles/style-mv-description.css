@@ -30,44 +30,44 @@ hr {
 }
 /*Movie Selection*/
 #movie-selection{
-    padding: 4% 5%;
-    z-index: 1;
     position: relative;
     font-family: 'Almorai', sans-serif;
     background-color: black;
     color: white;
     text-align: center;
 }
-.bg-img{
-    text-align: center;
-    margin: auto;
+.bg-img,.bg-img1,.bg-img2{
+    margin: 20px;
     font-family: 'Chivo' , sans-serif;
     font-weight: 400;
     border-radius: 20px;
-    background: linear-gradient(to bottom , black 20%,#15293b ,#123755 , rgb(14, 73, 128) );
+}
+.bg-img{
+    background: linear-gradient(135deg, #1B2845, #11498C, #004EC1, #0056B3, #1B2845);
+}
+.bg-img1{
+    background: linear-gradient(to bottom right, #060808 30%,#f36d20, #ff3300);
+}
+.bg-img2{
+    background: linear-gradient(45deg, #A88F76, #7F6650, #513A2B, #2D170C);
+}
+.mv-img{
+    width: 100%;
+    margin: auto;
 }
 .mv-details{
-    size: 60%;
     font-size: 1rem;
-    margin: 20px;
-    width: 20%;
     line-height: 1.5rem;
+    width: 100%;
+    margin: auto;
 }
 .movie-poster{
-    size: 15%;
+    size: 25%;
+    margin: auto;
     width: 35%;
 }
-.txt-showing{
-    background: linear-gradient(to right, #f32170,#ff0831, #e41a1a, #eedd44);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-size: 5rem;
-    font-weight: 900;
-}
-
 .carousel-item{
-    padding: 7% 13%;
-    width: auto;
+    padding: 7% 14%;
 }
 /*Schedule Movies*/
 
