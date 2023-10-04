@@ -31,7 +31,8 @@ hr {
 /*home*/
 #Home{
     padding: 13% 15% 5%;
-    background-image: url('/images/bg-showing.jpg');
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     height: 100;
@@ -94,7 +95,8 @@ hr {
 /*Schedule Movies*/
 /*Foodbar*/
 #foodbar{
-    background-image: url('/images/foodbar.jpg');
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
     text-align: center;
     height: auto;
 }
@@ -112,10 +114,64 @@ hr {
 }
 /*Contact*/
 #footer{
-    
     padding: 7% 14%;
     text-align: center;
 }
 .foot-icon{
     padding: 20px 10px;
+}
+
+@media (max-width: 768px){
+    .txt-showing{
+        background: linear-gradient(to right, #f32170,#ff0831, #e41a1a, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+}
+@media (max-width: 425px){
+    .txt-showing{
+        background: linear-gradient(to right, #f32170,#ff0831, #e41a1a, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .home-header, .home-body{
+        font-size: 1rem;
+    }
+    .foot-icon{
+        padding: 5px 3px;
+    }
+
+}
+@media (max-width: 320px){
+    .txt-showing{
+        background: linear-gradient(to right, #f32170,#ff0831, #e41a1a, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .home-header, .home-body{
+        font-size: 1rem;
+    }
+    .foot-icon{
+        padding: 5px 3px;
+    }
+    .btn-ticket{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+        background-image: linear-gradient(to right, hwb(4 14% 21%) 0%, #fe8c00  100%, #f83600  51%);
+        margin: 5px;
+    }
+    .btn-ticket:hover{
+        background-position: right left; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+    }
+    
 }

@@ -9,6 +9,7 @@ hr {
     border: 0;
     height: 1px;
 }
+
 /*Navbar*/
 #navbar{
     position: sticky;
@@ -59,7 +60,7 @@ hr {
     font-size: 1rem;
     line-height: 1.5rem;
     width: 100%;
-    margin: auto;
+    margin: 50px 20px;
 }
 .movie-poster{
     size: 25%;
@@ -71,12 +72,53 @@ hr {
 }
 /*Schedule Movies*/
 
+.txt-showing{
+    z-index: 1;
+    text-align: center;
+    -webkit-background-clip: text;
+    font-size: 5rem;
+    font-weight: 900;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #274060 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.cs-mv{
+    font-family: "Almarai", sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 1.3rem;
+}
+.coming-soon-mv{
+    z-index: 1;
+    position: relative;
+    margin: 25px 85px;
+    padding: 90px 0px 1px 0px;
+    width: 70%;
+}
+.soon-container{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #274060 74%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 /*Contact*/
 #footer{
-    
     padding: 7% 14%;
     text-align: center;
 }
 .foot-icon{
     padding: 20px 10px;
+}
+
+
+@media (max-width: 425px){
+    .mv-details{
+        font-size: 0.7rem;
+        width: 100%;
+        margin: 50px 5px;
+    }
 }
